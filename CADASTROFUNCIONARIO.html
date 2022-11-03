@@ -113,7 +113,7 @@
         <div class="u-container-layout">
           <h1 class="u-align-center titulo u-custom-font u-font-oswald u-text u-text-body-alt-color u-text-1"
             data-animation-name="fadeIn" data-animation-duration="2000" data-animation-direction="">barbertip</h1>
-           <p class="u-align-center u-large-text u-text u-text-body-alt-color u-text-variant u-text-2"
+          <p class="u-align-center u-large-text u-text u-text-body-alt-color u-text-variant u-text-2"
             data-animation-name="fadeIn" data-animation-duration="2000" data-animation-direction="">Cadastro de
             Funcionários</p>
         </div>
@@ -122,90 +122,123 @@
       <form action="" method="post">
 
         <!-- DADOS PESSOAIS-->
-    <br/>
-          
-           <p class="u-align-center u-large-text u-text u-text-body-alt-color u-text-variant u-text-2"
-            data-animation-name="fadeIn" data-animation-duration="2000" data-animation-direction="">Dados Pessoais</p>
+        <br />
 
-  <br/>
-    <div class="u-form u-login-control u-form-1">
-      <form action="#" method="POST" class="u-clearfix u-form-custom-backend u-form-spacing-5 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 5px;">
+        <p class="u-align-center u-large-text u-text u-text-body-alt-color u-text-variant u-text-2"
+          data-animation-name="fadeIn" data-animation-duration="2000" data-animation-direction="">Dados Pessoais</p>
 
-            <div class="u-form-group u-form-name u-label-top u-form-group-1">
-             <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-1" for="nome">Nome Completo</label>
-             <input name="nome" id="nome" class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-1 " required />
-          
-
-             
-             <div class="u-form-group u-form-name u-label-top u-form-group-1">
-              <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-1" for="nascimento">Nascimento</label>
-              <input name="nascimento" id="nascimento" type="date" class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-1" required />
-             
-
-              <div class="u-form-group u-form-phone u-label-top u-form-group-2">
-               <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-1" for="telefone">Contato</label>
-               <input id="telefone" onkeyup="mascaraFone(event)"  placeholder="(XX) XXXXX-XXXX" class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-2" required="">
-                
-              </div>
-            
-            </div> 
-          
+        <br />
+        <div class="u-form u-login-control u-form-1">
+          <form action="#" method="POST"
+            class="u-clearfix u-form-custom-backend u-form-spacing-5 u-form-vertical u-inner-form" source="custom"
+            name="form" style="padding: 5px;">
 
             <div class="u-form-group u-form-name u-label-top u-form-group-1">
+              <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-1" for="nome">Nome
+                Completo</label>
+              <input name="nome" id="nome"
+                class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-1 "
+                required />
+
+
+
+
+              <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-1"
+                for="nascimento">Nascimento</label>
+              <input name="nascimento" id="nascimento" type="date"
+                class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-1"
+                required />
+
+
+
+              <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-1"
+                for="telefone">Contato</label>
+              <input id="telefone" onkeyup="mascaraFone(event)" placeholder="(XX) XXXXX-XXXX"
+                class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-2"
+                required="">
+
+
+
+
+
+
+
               <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-1" for="cpf">CPF</label>
-              <input id="cpf" type="text" onkeyup="cpfCheck(this)" maxlength="18" onkeydown="javascript: fMasc( this, mCPF );"> <span id="cpfResponse" class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-2" required=""></span>
+              <input id="cpf" type="text"
+                class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-2"
+                required onkeyup="cpfCheck(this)" maxlength="18" onkeydown="javascript: fMasc( this, mCPF );"> <span
+                id="cpfResponse">
 
             </div>
 
-          
-        <br/>
 
-        <!-- ENDEREÇO -->
-        
-        <p class="u-align-center u-large-text u-text u-text-body-alt-color u-text-variant u-text-2"
-        data-animation-name="fadeIn" data-animation-duration="2000" data-animation-direction="">Dados de Endereço</p>
-          
+            <br />
 
-          <br/>
+            <!-- ENDEREÇO -->
 
-             <div class="u-form-group u-form-name u-label-top u-form-group-1">
-                <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-1" for="cep">CEP</label>
-                <input name="cep" id="cep" class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-1" required="">
+            <p class="u-align-center u-large-text u-text u-text-body-alt-color u-text-variant u-text-2"
+              data-animation-name="fadeIn" data-animation-duration="2000" data-animation-direction="">Dados de Endereço
+            </p>
+
+
+            <br />
+
+            <div class="u-form-group u-form-name u-label-top u-form-group-1">
+              <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-1" for="cep">CEP</label>
+              <input name="cep" id="cep"
+                class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-1"
+                required="">
               <div id="erro"></div>
-             </div>
-            
-
-              <div class="u-form-group u-form-name u-label-top u-form-group-1">
-                <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-1" for="endereco">Endereço</label>
-                <input name="endereco" id="endereco" class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-1" required="">
-              </div>
+            </div>
 
 
+            <div class="u-form-group u-form-name u-label-top u-form-group-1">
+              <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-1"
+                for="endereco">Endereço</label>
+              <input name="endereco" id="endereco"
+                class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-1"
+                required="">
+            </div>
 
-              <div class="u-form-group u-form-name u-label-top u-form-group-1">
-                <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-1" for="numero">Numero</label>
-                <input name="numero" id="numero" class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-1" required="">
-              </div>
 
-             <div class="u-form-group u-form-name u-label-top u-form-group-1">
-              <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-1" for="complemento">Complemento</label>
-                <input name="complemento" id="complemento" class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-1" required="">
-              </div>
 
-              <div class="u-form-group u-form-name u-label-top u-form-group-1">
-                <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-1" for="bairro">Bairro</label>
-                <input name="bairro" id="bairro" class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-1" required="">
-              </div>
+            <div class="u-form-group u-form-name u-label-top u-form-group-1">
+              <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-1"
+                for="numero">Numero</label>
+              <input name="numero" id="numero"
+                class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-1"
+                required="">
+            </div>
 
-             
-              <div class="u-form-group u-form-name u-label-top u-form-group-1">
-                <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-1" for="cidade">Cidade</label>
-                <input name="cidade" id="cidade" class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-1" required="">
-              </div>
+            <div class="u-form-group u-form-name u-label-top u-form-group-1">
+              <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-1"
+                for="complemento">Complemento</label>
+              <input name="complemento" id="complemento"
+                class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-1"
+                required="">
+            </div>
 
-              <div class="u-form-group u-form-name u-label-top u-form-group-1">
+            <div class="u-form-group u-form-name u-label-top u-form-group-1">
+              <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-1"
+                for="bairro">Bairro</label>
+              <input name="bairro" id="bairro"
+                class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-1"
+                required="">
+            </div>
+
+
+            <div class="u-form-group u-form-name u-label-top u-form-group-1">
+              <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-1"
+                for="cidade">Cidade</label>
+              <input name="cidade" id="cidade"
+                class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-1"
+                required="">
+            </div>
+
+            <div class="u-form-group u-form-name u-label-top u-form-group-1">
               <label class="campo__etiqueta" for="estado">UF</label>
-              <select id="estado" name="estado" class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-1">
+              <select id="estado" name="estado"
+                class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-1">
                 <option value="AC">Acre</option>
                 <option value="AL">Alagoas</option>
                 <option value="AP">Amapá</option>
@@ -237,86 +270,94 @@
               </select>
             </div>
 
-          </div>
-        
-        
         
 
-        <br />
-
-        <!-- DADOS DE LOGIN -->
-        
-        <p class="u-align-center u-large-text u-text u-text-body-alt-color u-text-variant u-text-2"
-        data-animation-name="fadeIn" data-animation-duration="2000" data-animation-direction="">Dados de login</p>
-        
-          <br/>          
-          <div class="u-form-group u-form-name u-label-top">
-            <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-3">E-mail: </label>
-            <input type="text" name="email" class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-3" required="">
-
-           </div>
-
-           <div class="u-form-group u-form-name u-label-top">
-            <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-3">Imagem de perfil:</label>
-            <input type="file" name="imagem" class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-3">
-
-           </div>
-
-           <div class="u-form-group u-form-name u-label-top">
-            <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-3">Login de usuário: </label>
-
-            <input type="text" name="login" class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-3">
-
-           </div>
-
-           <div class="u-form-group u-form-name u-label-top">
-            <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-3">Senha: </label>
-
-            <input type="password" name="pass" class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-3">
-           </div>
-
-
-           <div class="u-form-group u-form-name u-label-top">
-            <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-3">Confirme a senha: </label>
-            <input type="password" name="passconfirm" class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-3">
-
-           </div>
-        
-
-            <br />
-
-              <!--fim novo-->
 
 
 
-             <div class="u-form-checkbox u-form-group u-label-top">
-              <!-- aceitou contrato-->
-            <input type="checkbox" id="checkbox-a30d" name="remember" value="On" required>
-            <label for="checkbox-a30d" class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-6"> Eu aceito
-            os&nbsp;<a href="#"
-            class="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1">Termos
-            de Serviço</a>
-            </label>
-          </div>
-          <div class="u-align-center u-form-group u-form-submit u-label-top">
-          <input type="submit" value="submit" class="u-form-control-hidden">
-          <a href="#"
-         class="u-active-palette-2-dark-2 u-border-none u-btn u-btn-round u-btn-submit u-button-style u-custom-font u-heading-font u-hover-palette-2-dark-1 u-palette-2-base u-radius-5 u-btn-2">Cadastrar</a>
+           <br />
 
-         <input type="reset" value="Limpar" class="u-active-palette-2-dark-2 u-border-none u-btn-round u-btn-submit u-button-style u-custom-font u-heading-font u-hover-palette-2-dark-1 u-palette-2-base u-radius-5 u-btn-2">
-        </div>
-            <input type="hidden" value="" name="recaptchaResponse">
-          </form>
-        </div>
+           <!-- DADOS DE LOGIN -->
+
+           <p class="u-align-center u-large-text u-text u-text-body-alt-color u-text-variant u-text-2"
+          data-animation-name="fadeIn" data-animation-duration="2000" data-animation-direction="">Dados de login</p>
+
+           <br />
+             <div class="u-form-group u-form-name u-label-top">
+             <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-3">E-mail: </label>
+               <input type="text" name="email"
+                 class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-3"
+                required="">
+
+
+
+
+             <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-3">Imagem de perfil:</label>
+             <input type="file" name="imagem"
+              class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-3">
+
+
+
+
+             <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-3">Login de usuário: </label>
+
+              <input type="text" name="login"
+              class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-3">
+
+
+
+
+             <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-3">Senha: </label>
+
+              <input required type="password" name="senha" id="senha" placeholder="Senha"
+              class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-3">
+
+
+
+
+             <label class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-3">Confirme a senha: </label>
+             <input required type="password" name="senhaC" id="senhaC" placeholder="Confirmar Senha"
+              class="u-custom-font u-font-roboto u-input u-input-rectangle u-radius-5 u-text-black u-white u-input-3">
+
+             </div>
+
+
+              <br />
+
+               <!--fim novo-->
+
+
+
+               <div class="u-form-checkbox u-form-group u-label-top">
+                  <!-- aceitou contrato-->
+                  <input type="checkbox" id="checkbox-a30d" name="remember" value="On" required>
+                  <label for="checkbox-a30d" class="u-custom-font u-heading-font u-label u-text-body-alt-color u-label-6"> Eu
+                  aceito
+                    os&nbsp;<a href="#"
+                  class="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1">Termos
+                   de Serviço</a>
+                  </label>
+                  </div>
+                  <div class="u-align-center u-form-group u-form-submit u-label-top">
+                    <input type="submit" value="submit" class="u-form-control-hidden">
+                    <a href="#"
+                   class="u-active-palette-2-dark-2 u-border-none u-btn u-btn-round u-btn-submit u-button-style u-custom-font u-heading-font u-hover-palette-2-dark-1 u-palette-2-base u-radius-5 u-btn-2">Cadastrar</a>
+
+                   <input type="reset" value="Limpar"
+                   class="u-active-palette-2-dark-2 u-border-none u-btn-round u-btn-submit u-button-style u-custom-font u-heading-font u-hover-palette-2-dark-1 u-palette-2-base u-radius-5 u-btn-2">
+                 </div>
+        <input type="hidden" value="" name="recaptchaResponse">
+      </form>
+    </div>
     </div>
 
-      </div>
-</div>
+    </div>
+    </div>
 
 
-</section>
-<script src="js/novoFuncionario.js"></script>
-<script src="js/apiCep.js"></script>
+  </section>
+  <script src="js/novoFuncionario.js"></script>
+  <script src="js/apiCep.js"></script>
 </body>
 
 </html>
