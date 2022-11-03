@@ -1,0 +1,106 @@
+ .u-section-1 {
+  background-image: url("images/FUNDO11reduzido1.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 999px;
+}
+
+.u-section-1 .u-group-1 {
+  width: 481px;
+  min-height: 126px;
+  margin: 257px auto 0;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 4.5rem;
+  line-height: 0.8;
+  text-transform: uppercase;
+  animation-duration: 1000ms;
+  letter-spacing: 4px;
+  text-align: center;
+  font-weight: normal;
+  margin: 0;
+}
+
+.u-section-1 .u-text-2 {
+  animation-duration: 1000ms;
+  text-align: center;
+  margin: 37px 0 0;
+}
+
+.u-section-1 .u-text-3 {
+  font-size: 1rem;
+  width: 570px;
+  margin: 35px auto 0;
+}
+
+.u-section-1 .u-form-1 {
+  height: 51px;
+  width: 570px;
+  margin: 12px auto 60px;
+}
+
+.u-section-1 .u-input-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: solid;
+  background-image: none;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 760px;
+  }
+
+  .u-section-1 .u-group-1 {
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 582px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 437px;
+  }
+
+  .u-section-1 .u-text-3 {
+    font-size: 1.875rem;
+    width: 540px;
+  }
+
+  .u-section-1 .u-form-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 275px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
+  }
+
+  .u-section-1 .u-text-3 {
+    font-size: 1.5rem;
+    width: 340px;
+  }
+
+  .u-section-1 .u-form-1 {
+    width: 340px;
+  }
+}
