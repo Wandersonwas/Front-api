@@ -112,3 +112,87 @@ function validarSenha() {
 
 // verificar também quando o campo for modificado, para que a mensagem suma quando as senhas forem iguais
 senhaC.addEventListener('input', validarSenha);
+
+const botao = document.getElementById('btnEnviar');
+botao.addEventListener("submit",recebeDados);
+function recebeDados(){
+
+    let nome = document.getElementById('nome'); 
+    console.log(nome);
+
+    
+
+
+}
+
+
+
+var frm = document.querySelector("form")
+//querySelector versus getElementById( )
+frm.addEventListener("submit",(e)=>{
+    
+    var nome = frm.name.value
+
+    var dataNascimento = frm.date.value
+
+    var telefone = frm.phone.value
+
+    var fCpf = frm.cpf.value
+
+    var fCep = frm.cep.value
+
+    var end = frm.endereco.value
+
+    var numbCas = frm.numero.value
+
+    var comp = frm.complemento.value
+
+    var bairro = frm.bairro.value
+
+    var cidade = frm.cidade.value
+
+    var estado = frm.estado.value
+
+    var email= frm.username.value
+
+    var imgPerf = frm.imagem.value
+
+    var log = frm.login.value
+
+    //var dataFormatada = new Date(dataNascimento);
+    //alert(dataFormatada)
+
+    console.log(`o valor:${nome} tem o tipo: ${typeof nome}`)
+
+    console.log(`o valor:${dataNascimento} tem o tipo: ${typeof dataNascimento}`)
+
+    console.log(`o valor:${telefone} tem o tipo: ${typeof telefone}`)
+
+    console.log(`o valor:${email} tem o tipo: ${typeof email}`)
+
+    console.log(`o valor:${senha} tem o tipo: ${typeof senha}`)
+
+
+    if (localStorage.getItem("nome")){
+        localStorage.setItem("nome" ,localStorage.getItem("nome")+";"+nome)
+        localStorage.setItem("nome" ,localStorage.getItem("telefone")+";"+telefone)
+    }else{
+        //senão é a primeira inclusão
+        localStorage.setItem("nome", nome)
+        localStorage.setItem("telefone")
+    }
+    //verifica se salvou
+
+    if(localStorage.getItem("nome")){
+        alert (`Ok! Cliente ${nome} Cadastro com Sucesso`)
+    }
+
+   
+
+    
+    e.preventDefault();//evita o envio do form
+    
+}
+);
+
+
